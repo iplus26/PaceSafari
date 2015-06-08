@@ -1,0 +1,9 @@
+div#content {
+	width: 60%;
+	font-family: "Source Sans Pro", sans-serif;
+	margin: auto;
+}
+
+p {
+	text-align: justify;
+}

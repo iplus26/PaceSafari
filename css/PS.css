@@ -1,0 +1,18 @@
+body, html {
+	margin: 0;
+}
+
+div#pacesafari {
+	top: 0;
+	left: 0;
+	right: 100%;
+	height: 100px;
+	z-index: 9999999;
+	position: fixed;
+	content: "";
+	display: block;
+	-webkit-transform: translateY(-99.99px);
+	background: #84D8D0;
+/*	background: -webkit-linear-gradient(left, #ff0004 0%,#f2ff00 21%,#2aff00 45%,#1500ff 73%,#ff0084 100%); */
+	transition: all .1s ease;
+}
